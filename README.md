@@ -138,14 +138,7 @@ escenas. No ejecutar si se desea conservar cambios manuales en ellas.
 - Prompt, bitácora y comparación: `Prompts/`.
 - Variante editable: `scenes/model_comparison.tscn`.
 
-Los enlaces son locales/relativos. No se proporcionó cuenta o destino de publicación;
-Alberto debe subir ZIP y MP4 e incorporar sus URLs públicas antes de entregar si
-la institución exige enlaces web. No se inventaron direcciones publicadas.
 
-Alberto autorizó usar un modelo original de práctica al no disponer aquí de acceso
-conectado a Tripo/Meshy. No se afirma haber utilizado esas herramientas. El recurso
-es procedural CC0, con asistencia de Codex; sin material externo. No se recibieron
-los documentos de apoyo del curso, por lo que no se atribuye revisión de su contenido.
 
 Referencias oficiales:
 - https://docs.godotengine.org/en/4.5/classes/class_characterbody3d.html
