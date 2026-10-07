@@ -129,14 +129,6 @@ es recomendable para evaluar la sensación de control.
 `tools/build_assets.py`: reproduce recurso original y escenas base; sobrescribe esas
 escenas. No ejecutar si se desea conservar cambios manuales en ellas.
 
-## Entrega y trazabilidad
-
-- Informe: [PDF de seis páginas](output/pdf/Informe_Alberto.pdf).
-- Video: [demostración MP4](output/evidence/Demostracion_Alberto.mp4).
-- Proyecto: [ZIP completo](output/Proyecto_Alberto.zip).
-- Modelo final y ficha: `assets/robot/`.
-- Prompt, bitácora y comparación: `Prompts/`.
-- Variante editable: `scenes/model_comparison.tscn`.
 
 
 
