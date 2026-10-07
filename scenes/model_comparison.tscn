@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/robot/robot_variante_gris.gltf" id="1"]
+[ext_resource type="PackedScene" path="res://assets/robot/robot_practica.gltf" id="2"]
+[sub_resource type="Environment" id="Env"]
+background_mode = 1
+background_color = Color(0.09, 0.14, 0.2, 1)
+ambient_light_source = 3
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_energy = 0.5
+[sub_resource type="StandardMaterial3D" id="FloorMaterial"]
+albedo_color = Color(0.17, 0.22, 0.28, 1)
+[sub_resource type="PlaneMesh" id="Floor"]
+size = Vector2(8, 8)
+material = SubResource("FloorMaterial")
+
+[node name="ComparacionModelos" type="Node3D"]
+[node name="VarianteGris" parent="." instance=ExtResource("1")]
+position = Vector3(-1.1, 0, 0)
+rotation_degrees = Vector3(0, 160, 0)
+[node name="FinalMenta" parent="." instance=ExtResource("2")]
+position = Vector3(1.1, 0, 0)
+rotation_degrees = Vector3(0, 160, 0)
+[node name="Floor" type="MeshInstance3D" parent="."]
+mesh = SubResource("Floor")
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Env")
+[node name="Light" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-45, -30, 0)
+shadow_enabled = true
+[node name="Camera3D" type="Camera3D" parent="."]
+position = Vector3(0, 2.7, 6)
+rotation_degrees = Vector3(-15, 0, 0)
+current = true
+[node name="LabelA" type="Label3D" parent="."]
+position = Vector3(-1.1, 2.15, 0)
+text = "A / GRIS"
+font_size = 50
+[node name="LabelB" type="Label3D" parent="."]
+position = Vector3(1.1, 2.15, 0)
+text = "B / MENTA FINAL"
+font_size = 50

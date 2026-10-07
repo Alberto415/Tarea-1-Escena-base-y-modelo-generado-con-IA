@@ -1,0 +1,100 @@
+{
+	"distance_144": 9.47278118133545,
+	"distance_30": 9.47278118133545,
+	"engine": "4.7.2-stable (official)",
+	"failures": 0,
+	"physics_hz": 60,
+	"render_backend": "Windows",
+	"results": [
+		{
+			"detail": "",
+			"passed": true,
+			"test": "Idle en suelo"
+		},
+		{
+			"detail": "9.4728 m; tiempo real=0.839 s",
+			"passed": true,
+			"test": "Caminar a 30 FPS / 120 pasos"
+		},
+		{
+			"detail": "",
+			"passed": true,
+			"test": "Estado Walk"
+		},
+		{
+			"detail": "",
+			"passed": true,
+			"test": "Walk vuelve a Idle"
+		},
+		{
+			"detail": "9.4728 m; tiempo real=0.912 s",
+			"passed": true,
+			"test": "Caminar a 144 FPS / 120 pasos"
+		},
+		{
+			"detail": "",
+			"passed": true,
+			"test": "Estado Walk"
+		},
+		{
+			"detail": "",
+			"passed": true,
+			"test": "Walk vuelve a Idle"
+		},
+		{
+			"detail": "diferencia 0.00000 m",
+			"passed": true,
+			"test": "Consistencia 30 vs 144 FPS"
+		},
+		{
+			"detail": "",
+			"passed": true,
+			"test": "Jump en aire"
+		},
+		{
+			"detail": "",
+			"passed": true,
+			"test": "Sin doble salto"
+		},
+		{
+			"detail": "",
+			"passed": true,
+			"test": "Aterrizaje en Idle"
+		},
+		{
+			"detail": "(-3.0, 0.000684, -0.579874)",
+			"passed": true,
+			"test": "No atraviesa cubo"
+		},
+		{
+			"detail": "(-3.0, 0.900851, -2.4124)",
+			"passed": true,
+			"test": "Salto aterriza sobre obstaculo"
+		},
+		{
+			"detail": "(-4.472777, 0.000684, 8.0)",
+			"passed": true,
+			"test": "Movimiento relativo a camara"
+		},
+		{
+			"detail": "longitud 1.085 m",
+			"passed": true,
+			"test": "SpringArm retraido"
+		},
+		{
+			"detail": "minimo 1.085 m",
+			"passed": true,
+			"test": "Giro de camara 360 junto a pared"
+		},
+		{
+			"detail": "",
+			"passed": true,
+			"test": "No atraviesa pared"
+		},
+		{
+			"detail": "(6.723264, 0.000943, -1.276735)",
+			"passed": true,
+			"test": "Colision en esquina"
+		}
+	]
+}

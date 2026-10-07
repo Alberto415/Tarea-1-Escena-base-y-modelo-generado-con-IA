@@ -1,0 +1,12 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Generated intermediates; retain final PDF, MP4 and source evidence.
+output/*.zip
+output/evidence/*.avi
+output/evidence/*.wav
+output/evidence/*.log
+output/evidence/pdf_*
+output/evidence/video_check.png
+__pycache__/
+/android/

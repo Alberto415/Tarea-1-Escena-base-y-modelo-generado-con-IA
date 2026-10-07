@@ -1,0 +1,13 @@
+PROMPT DE DISEÑO USADO PARA EL RECURSO ORIGINAL DE PRÁCTICA
+Crear un robot humanoide simple de baja poligonización, 1.78 metros de altura,
+con cabeza rectangular, visor ámbar, torso de cerámica verde menta, brazos
+separados, juntas de grafito y pies planos. Usar piezas rígidas y normales planas,
+sin texturas externas, sin esqueleto y sin animaciones. Orientar el frente hacia
+-Z, mantener +Y arriba y colocar los pies en Y=0. Exportar glTF 2.0 con materiales
+PBR, escala métrica y origen centrado en el suelo. La apariencia no debe contener
+código de movimiento, cámara ni colisiones.
+
+VARIANTE: conservar la misma geometría y sustituir la cerámica menta por gris.
+
+Este texto especificó el diseño del generador local tools/build_assets.py.
+NO se envió a Tripo ni a Meshy; no se atribuye a esas herramientas.

@@ -1,0 +1,93 @@
+{
+	"backend": "Windows",
+	"checks": [
+		{
+			"detail": {
+				"meters": 11.2311182022095,
+				"render_fps": 30.0,
+				"wall_seconds": 2.002276
+			},
+			"name": "120 pasos a 30 FPS",
+			"passed": true
+		},
+		{
+			"detail": "",
+			"name": "Walk vuelve a Idle",
+			"passed": true
+		},
+		{
+			"detail": {
+				"meters": 11.2311182022095,
+				"render_fps": 144.0,
+				"wall_seconds": 1.999843
+			},
+			"name": "120 pasos a 144 FPS",
+			"passed": true
+		},
+		{
+			"detail": "",
+			"name": "Walk vuelve a Idle",
+			"passed": true
+		},
+		{
+			"detail": 0.0,
+			"name": "Consistencia 30/144",
+			"passed": true
+		},
+		{
+			"detail": "",
+			"name": "Jump sin apoyo",
+			"passed": true
+		},
+		{
+			"detail": "",
+			"name": "No hay doble salto",
+			"passed": true
+		},
+		{
+			"detail": "",
+			"name": "Aterriza en Idle",
+			"passed": true
+		},
+		{
+			"detail": "",
+			"name": "W sigue yaw de camara",
+			"passed": true
+		},
+		{
+			"detail": 1.078125,
+			"name": "Brazo retraido",
+			"passed": true
+		},
+		{
+			"detail": "",
+			"name": "Giro 360 junto a pared",
+			"passed": true
+		}
+	],
+	"distance_144": 11.2311182022095,
+	"distance_30": 11.2311182022095,
+	"engine": "4.7.2-stable (official)",
+	"model": {
+		"aabb_min_m": [
+			-0.499052166938782,
+			0.0275000110268593,
+			-0.354999989271164
+		],
+		"aabb_size_m": [
+			0.998104333877563,
+			1.86699998378754,
+			0.972896814346313
+		],
+		"bones": 0,
+		"degenerate_triangles": 928,
+		"materials": 5,
+		"normal_vectors_finite_unit": true,
+		"parts": 30,
+		"textures": 0,
+		"triangles": 23112,
+		"uv_surfaces": 30,
+		"vertices": 13516
+	},
+	"physics_hz": 60
+}

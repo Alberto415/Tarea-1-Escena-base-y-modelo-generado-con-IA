@@ -1,0 +1,16 @@
+{
+  "nodes": 11,
+  "triangles_instantiated": 132,
+  "materials": 3,
+  "textures": 0,
+  "uv_channels": 0,
+  "skeletons": 0,
+  "dimensions_m": [
+    1.03,
+    1.78,
+    0.465
+  ],
+  "outward_normals": true,
+  "positive_scales": true,
+  "sha256": "917dd0caefd952f6955994da0bd88354b18f2db9bdbf92c65d6c615e3c84cd3a"
+}
